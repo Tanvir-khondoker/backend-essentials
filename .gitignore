@@ -1,0 +1,24 @@
+# Dependency directories
+/node_modules
+
+# TypeScript and build artifacts
+/dist
+/build
+/coverage
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*
+.env.local
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.AppleDouble
+
