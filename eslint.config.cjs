@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-require-imports */
 // eslint.config.cjs
 
 const eslint = require('@eslint/js');
@@ -20,8 +22,11 @@ module.exports = [
     rules: {
       'prettier/prettier': 'error',
       'no-unused-vars': 'off',
-      '@typescript-eslint/no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
-      '@typescript-eslint/consistent-type-definitions': ['error', 'interface']
+      '@typescript-eslint/no-unused-vars': 'off',
+      // '@typescript-eslint/no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
+      '@typescript-eslint/consistent-type-definitions': 'off',
+      'no-console': 'warn',
+      'no-undefined': 'error',
     }
   }
 ];
